@@ -1,0 +1,6 @@
+<!-- .footer: the site footer text, links and whatever else -->
+<p class="footer">
+  <%= t('.copyright', :year => Time.now.year,
+                      :site_name => RefinerySetting.find_or_set(:site_name, "Company Name")) %>
+                      <br />Design by <a href="http://fullahead.org" title="Visit FullAhead">FullAhead</a>.  Valid CSS &amp; XHTML with no rights reserved.
+</p>
